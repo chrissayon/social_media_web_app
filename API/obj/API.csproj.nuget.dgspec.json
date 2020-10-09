@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {}
+    "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {
+    "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Base\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\obj\\",
+        "outputPath": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Base\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.1, )"
