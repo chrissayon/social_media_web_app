@@ -11,12 +11,14 @@ namespace API
 {
     public class Program
     {
+        //Where program actually starts
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
+            // Does all the setup
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {

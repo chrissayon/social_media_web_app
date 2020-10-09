@@ -16,6 +16,7 @@ namespace API
 {
     public class Startup
     {
+        // Configuration being injecting into startup class
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,6 +51,7 @@ namespace API
 
             app.UseAuthorization();
 
+            // Check what endpoints are available
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
