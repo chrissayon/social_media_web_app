@@ -1109,6 +1109,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.EntityFrameworkCore >= 5.0.0-rc.1.20451.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.0-rc.1.20451.13",
       "Swashbuckle.AspNetCore >= 5.5.1"
     ]
@@ -1152,6 +1153,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.0-rc.1.20451.13, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.0-rc.1.20451.13, )"
