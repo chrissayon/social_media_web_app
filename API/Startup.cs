@@ -19,18 +19,18 @@ namespace API
     public class Startup
     {
         // Configuration being injecting into startup class
-        public Startup(IConfiguration configuration)
+        private readonly IConfiguration _config;
+        public Startup(IConfiguration config)
         {
-            Configuration = configuration;
+            _config = config;;
         }
-
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(options => {
-                options.UseSqlite("Connection");
+            services.AddDbContext<DataContext>(options =>
+            {
+                options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>

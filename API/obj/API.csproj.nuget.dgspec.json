@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {}
+    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {
+    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Base\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\obj\\",
+        "outputPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Base\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,12 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0-rc.1.20451.13, )"
             },
