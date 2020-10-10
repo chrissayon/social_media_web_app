@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {}
+    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj": {
+    "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Base\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\obj\\",
+        "outputPath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Base\\AppData\\Roaming\\NuGet\\NuGet.Config",

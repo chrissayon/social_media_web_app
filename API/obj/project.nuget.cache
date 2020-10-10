@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rmnvc1w10IirB//7ZqMM6fhRT3xTPw5bVFj+IPGZs4CWp7sznRIF4brcClGtRrFvpCn+fgOaREhcnxD3yR3ZvA==",
+  "dgSpecHash": "JDRYTmKnijz4Aekj2MsaPvXPw2sPWbWLEToRCXchufSxgMpwE6E18kYnIHjef4CE9edEYKQVSV+2TLgWbISCdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Base\\Documents\\Projects\\social_media_web_app\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Base\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Base\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
