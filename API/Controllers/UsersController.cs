@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UsersController : BaseAPIController
     {
         // Source of all entities mapped over a database connection
         // Tracks changes that you made to all retrieved entities
